@@ -14,7 +14,7 @@ function Skills() {
 
               <div className="progress">
                 <div
-                  className="progress-bar progress-bar bg-success"
+                  className="progress-bar progress-bar bg-danger"
                   role="progressbar"
                   aria-valuenow="10"
                   aria-valuemin="0"
@@ -28,7 +28,7 @@ function Skills() {
               <img src={imagenes.css} alt="" />
               <div className="progress">
                 <div
-                  className="progress-bar progress-bar bg-success"
+                  className="progress-bar progress-bar bg-danger"
                   role="progressbar"
                   aria-valuenow="10"
                   aria-valuemin="0"
@@ -42,7 +42,7 @@ function Skills() {
               <img src={imagenes.js} alt="" />
               <div className="progress">
                 <div
-                  className="progress-bar progress-bar bg-success"
+                  className="progress-bar progress-bar bg-danger"
                   role="progressbar"
                   aria-valuenow="10"
                   aria-valuemin="0"
@@ -84,7 +84,7 @@ function Skills() {
               <img src={imagenes.github} alt="" />
               <div className="progress">
                 <div
-                  className="progress-bar progress-bar-striped bg-success"
+                  className="progress-bar progress-bar bg-danger"
                   role="progressbar"
                   aria-valuenow="10"
                   aria-valuemin="0"
