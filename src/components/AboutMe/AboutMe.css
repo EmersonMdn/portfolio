@@ -5,15 +5,13 @@
 
 #about-me {
   background-color: var(--fondo);
-  height: 100vh;
-
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 100px 0;
+  padding: 1% 0;
   font-family: Poppins;
-  color: rgb(163, 203, 241);
 }
 
 #about-me h2 {
@@ -25,18 +23,31 @@
 }
 
 .about-text {
-  background-color: rgba(69, 76, 150, 0);
-  max-width: 600px;
-  text-align:center;
-  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.753);
+  width: 700px;
+  border-radius: 60px;
+  text-align: left;
+  margin-top: 20px;
+  padding: 20px;
   display: inline-block;
+  border: 2px #1041ff solid;
+  box-shadow: 0 0 16px 2px #3d63f8;
 }
 
-
 #about-me img {
-  height: 230px;
-  width: 200px;
-  border-radius: 90px;
+  height: 240px;
+  width: 240px;
+  border-radius: 20px;
   object-fit: cover;
-  margin:40px 30px ;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+.myData {
+  text-align: left;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
