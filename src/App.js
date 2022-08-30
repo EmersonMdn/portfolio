@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+// import { useState } from "react";
+import "./App.css";
+import AboutMe from "./components/AboutMe/AboutMe";
+import MainPage from "./components/MainPage/MainPage";
 
 function App() {
+  // const [isActive, setIsActive] = useState(false);
+
+  // setTimeout(() => {
+  //   setIsActive(true);
+  // }, 2000);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="my-app">
+        <MainPage />
+        <AboutMe />
+      </div>
     </div>
   );
 }

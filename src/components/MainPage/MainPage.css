@@ -1,0 +1,33 @@
+:root {
+  --fondo: #0a0e1a;
+  --rojo: #51f7f7;
+}
+
+
+.presentacion {
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  text-transform: uppercase;
+  font-family: neon;
+  font-size: 90px;
+  animation: neon 2s ease infinite;
+}
+
+.subtitle {
+  font-family: neon;
+  font-size: 60px;
+  animation: flux 2s linear infinite;
+}
+
+.arrow {
+  font-family: neon;
+  font-size: 60px;
+  animation: flux 2s linear infinite; 
+  cursor: pointer;
+}
