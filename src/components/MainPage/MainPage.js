@@ -9,7 +9,7 @@ function MainPage() {
           <h1 className="title">Hola, soy Emerson</h1>
           <h2 className="subtitle">Un desarrollador Front end</h2>
           <a href="#about-me" className="arrow">
-            <i class="fa-solid fa-chevron-down "></i>
+            <i className="fa-solid fa-chevron-down "></i>
           </a>
         </div>
         <video muted autoPlay loop>

@@ -6,7 +6,7 @@ function AboutMe() {
     <>
       <div id="about-me">
         <a href="#mainPage" className="arrow">
-          <i class="fa-solid fa-chevron-up"></i>
+          <i className="fa-solid fa-chevron-up"></i>
         </a>
         <h2>sobre mi</h2>
         <div className="about-text">
@@ -17,15 +17,15 @@ function AboutMe() {
               </div>
               <div className="col-md-6 myData">
                 <p>
-                  <i class="fa-solid fa-address-card"></i> Emerson Junior Medina
+                  <i className="fa-solid fa-address-card"></i> Emerson Junior Medina
                   Franco
                 </p>
                 <p>
-                  <i class="fa-solid fa-location-dot"></i> Ciudad Autonoma de
+                  <i className="fa-solid fa-location-dot"></i> Ciudad Autonoma de
                   Buenos Aires, Buenos Aires, Argentina
                 </p>
                 <p>
-                  <i class="fa-solid fa-user-large"></i> 22 años
+                  <i className="fa-solid fa-user-large"></i> 22 años
                 </p>
               </div>
             </div>
@@ -42,8 +42,8 @@ function AboutMe() {
           </p>
         </div>
 
-        <a href="#skills" className="arrow">
-          <i class="fa-solid fa-chevron-down"></i>
+        <a href="#skills-container" className="arrow">
+          <i className="fa-solid fa-chevron-down"></i>
         </a>
       </div>
     </>

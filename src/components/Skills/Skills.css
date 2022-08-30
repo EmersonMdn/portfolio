@@ -1,11 +1,46 @@
-#skills {
+#skills-container {
   min-height: 100vh;
   text-align: center;
+  font-family: Poppins;
 }
 
-#skills h2 {
+.skills .row{
+  justify-content: center;
+}
+.skill-item {
+  padding: 10px;
+}
+
+#skills-container h2 {
+  text-transform: uppercase;
+  letter-spacing: 10px;
   font-family: neon;
   margin: 40px 0;
   padding: 10px 0;
   animation: neon 3s ease-in-out infinite alternate;
+}
+
+#skills-container img {
+  background-color: rgba(17, 142, 226, 0.418);
+  height: 150px;
+  border-radius: 90%;
+  padding: 10px;
+  margin: 10px;
+  object-fit: cover;
+}
+.progress {
+  height: 3em;
+  font-size: 15px;
+  color: black;
+}
+.progress-bar {
+  width: 70%;
+  height: 100%;
+  color: black;
+  font-weight: bold;
+}
+.basico {
+  width: 40%;
+  color: black;
+  font-weight: bold;
 }
