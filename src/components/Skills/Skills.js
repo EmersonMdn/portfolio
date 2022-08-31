@@ -4,7 +4,11 @@ import imagenes from "../../assets/img/imagenes";
 function Skills() {
   return (
     <>
+    
       <div id="skills-container">
+      <a href="#about-me" className="arrow">
+            <i className="fa-solid fa-chevron-up "></i>
+          </a>
         <h2>Mis skills</h2>
 
         <div className="container skills">
@@ -162,7 +166,7 @@ function Skills() {
               </div>
             </div>
             <div className="skill-item">
-              <h4>Consumir api</h4>
+              <h4>api</h4>
               <img src={imagenes.api} alt="" />
               <p>
                 Nivel <i className="fa-solid fa-chevron-down"></i>
@@ -200,8 +204,10 @@ function Skills() {
               </div>
             </div>
           </div>
-          <div>hola</div>
         </div>
+        <a href="#projects" className="arrow">
+            <i className="fa-solid fa-chevron-down "></i>
+          </a>
       </div>
     </>
   );

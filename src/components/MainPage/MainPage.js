@@ -1,5 +1,4 @@
 import "./MainPage.css";
-import imagenes from "../../assets/img/imagenes";
 
 function MainPage() {
   return (
@@ -12,10 +11,7 @@ function MainPage() {
             <i className="fa-solid fa-chevron-down "></i>
           </a>
         </div>
-        <video muted>
-          <source src={imagenes.video} type="video/mp4" />
-        </video>
-        <div className="capa"></div>
+        
       </div>
     </>
   );

@@ -6,14 +6,14 @@
 
 .presentacion {
   min-height: 100vh;
-  position: relative;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  position: relative;
-  z-index: 3;
+  background: linear-gradient(rgba(255, 0, 0, 0.219), rgba(3, 99, 243, 0.575)), url('../../assets/img/hd-wallpaper-3127102_1920.webp');
+  background-size: cover;
+
 }
 .title {
   text-transform: uppercase;
@@ -33,24 +33,4 @@
   font-size: 60px;
   animation: flux 2s linear infinite; 
   cursor: pointer;
-}
-
-video{
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  object-fit: cover;
-}
-.capa{
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background: darkslategrey;
-  opacity:0.5;
-  mix-blend-mode: overlay;
-
 }

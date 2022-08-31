@@ -1,5 +1,5 @@
 #skills-container {
-  min-height: 600px;
+  min-height: 100vh;
   text-align: center;
   font-family: Poppins;
 }
@@ -35,6 +35,8 @@
   transition: 700ms;
   border-radius: 100%;
   background-color: rgb(17, 142, 226);
+  padding: 0;
+  overflow: visible;
 }
 
 .progress {
@@ -44,14 +46,14 @@
   cursor:default;
 }
 .progress-bar {
-  width: 70%;
+  width: 60%;
   height: 100%;
   color: black;
   font-weight: bold;
   overflow: visible;
 }
 .basico {
-  width: 40%;
+  width: 30%;
 }
 
 .skill-item h4{

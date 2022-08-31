@@ -1,6 +1,6 @@
 import perfil from "./perfil.jpg";
 import perfilWeb from "./image.webp";
-import video from "./Night - 28860.mp4"
+import video from "./Night - 28860 .mp4"
 import gitHub from './icons8-github.svg';
 import git from './icons8-git.svg';
 import firebase from './icons8-firebase.svg';
@@ -12,6 +12,7 @@ import js from './icons8-javascript.svg';
 import react from './icons8-reaccionar.svg';
 import linkedin from './icons8-linkedin-rodeado-de-círculo.svg';
 import english from './united-28519.svg';
+import lumos from './lumos.png';
 
 let misImagenes = {
   img1: perfil,
@@ -28,7 +29,8 @@ let misImagenes = {
   git: git,
   github: gitHub,
   linkedin: linkedin,
-  english: english
+  english: english,
+  lumos: lumos
 };
 
 export default misImagenes;
