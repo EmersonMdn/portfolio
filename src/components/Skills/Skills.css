@@ -1,10 +1,10 @@
 #skills-container {
-  min-height: 100vh;
+  min-height: 600px;
   text-align: center;
   font-family: Poppins;
 }
 
-.skills .row{
+.skills .row {
   justify-content: center;
 }
 .skill-item {
@@ -21,26 +21,36 @@
 }
 
 #skills-container img {
-  background-color: rgba(17, 142, 226, 0.418);
+  /* background-color: rgba(17, 142, 226, 0.418); */
+  background-color: rgba(17, 142, 226, 0.541);
   height: 150px;
+  width: 150px;
   border-radius: 90%;
   padding: 10px;
   margin: 10px;
   object-fit: cover;
 }
+#skills-container img:hover {
+  transform: scale(1.2) rotate(360deg);
+  transition: 700ms;
+  border-radius: 100%;
+  background-color: rgb(17, 142, 226);
+}
+
 .progress {
   height: 3em;
   font-size: 15px;
   color: black;
+  overflow: visible;
 }
 .progress-bar {
   width: 70%;
   height: 100%;
   color: black;
   font-weight: bold;
+  overflow: visible;
 }
 .basico {
   width: 40%;
-  color: black;
-  font-weight: bold;
 }
+

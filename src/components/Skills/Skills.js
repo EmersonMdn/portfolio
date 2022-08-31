@@ -62,7 +62,7 @@ function Skills() {
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  Basico
+                  Básico
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@ function Skills() {
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  Basico
+                  Básico
                 </div>
               </div>
             </div>
@@ -104,7 +104,7 @@ function Skills() {
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  <span>Basico</span>
+                  <span>Básico</span>
                 </div>
               </div>
             </div>
@@ -118,7 +118,7 @@ function Skills() {
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  <span>Basico</span>
+                  <span>Básico</span>
                 </div>
               </div>
             </div>
@@ -132,11 +132,26 @@ function Skills() {
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  <span>Basico</span>
+                  <span>Básico</span>
+                </div>
+              </div>
+            </div>
+            <div className="skill-item">
+              <img src={imagenes.english} alt="" />
+              <div className="progress">
+                <div
+                  className="progress-bar progress-bar basico"
+                  role="progressbar"
+                  aria-valuenow="10"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <span>Básico | Intermedio</span>
                 </div>
               </div>
             </div>
           </div>
+          <div>hola</div>
         </div>
       </div>
     </>

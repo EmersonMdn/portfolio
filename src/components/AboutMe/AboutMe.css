@@ -1,6 +1,6 @@
 :root {
   --fondo: #0a0e1a;
-  --rojo: #51f7f7;
+  --celeste: #47b6f7;
 }
 
 #about-me {
@@ -30,11 +30,11 @@
   margin-top: 20px;
   padding: 20px;
   display: inline-block;
-  border: 2px #1041ff solid;
-  box-shadow: 0 0 16px 2px #3d63f8;
+  border: 2px rgb(0, 153, 255) solid;
+  box-shadow: 0px 0px 4px 2px var(--celeste);
 }
 
-#about-me img {
+.myPic img {
   height: 240px;
   width: 240px;
   border-radius: 20px;
@@ -50,4 +50,25 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  margin-bottom: 20px;
+}
+.myData i{
+  color: rgb(0, 162, 255);
+  font-size:20px;
+  padding: 0 5px 0 0;
+}
+.contacto-logo{
+  text-align:center;
+}
+.contacto-logo img{
+  height: 50px;
+  margin:0 10px;
+}
+
+.contacto-logo img:hover{
+  transform: scale(1.1);
+  transition: 500ms;
+  border-radius: 100%;
+  background-color: rgb(0, 162, 255);
+  cursor: pointer;
 }

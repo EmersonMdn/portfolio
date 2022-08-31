@@ -10,6 +10,8 @@ import css from './icons8-css3.svg';
 import html from './icons8-html-5.svg';
 import js from './icons8-javascript.svg';
 import react from './icons8-reaccionar.svg';
+import linkedin from './icons8-linkedin-rodeado-de-círculo.svg';
+import english from './united-28519.svg';
 
 let misImagenes = {
   img1: perfil,
@@ -24,7 +26,9 @@ let misImagenes = {
   sass: sass,
   firebase: firebase,
   git: git,
-  github: gitHub
+  github: gitHub,
+  linkedin: linkedin,
+  english: english
 };
 
 export default misImagenes;
