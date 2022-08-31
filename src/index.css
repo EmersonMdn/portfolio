@@ -10,8 +10,15 @@ body {
   font-family: neon;
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
 }
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fascinate&family=Jacques+Francois+Shadow&family=Playfair+Display:wght@500&family=Poppins&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa&family=Fascinate&family=Jacques+Francois+Shadow&family=Josefin+Sans&family=Montserrat&family=Playfair+Display:wght@500&family=Poppins&display=swap');
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Fascinate', cursive;
+font-family: 'Jacques Francois Shadow', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;*/
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

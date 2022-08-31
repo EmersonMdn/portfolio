@@ -12,7 +12,7 @@ function MainPage() {
             <i className="fa-solid fa-chevron-down "></i>
           </a>
         </div>
-        <video muted autoPlay loop>
+        <video muted>
           <source src={imagenes.video} type="video/mp4" />
         </video>
         <div className="capa"></div>

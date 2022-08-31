@@ -41,7 +41,7 @@
   height: 3em;
   font-size: 15px;
   color: black;
-  overflow: visible;
+  cursor:default;
 }
 .progress-bar {
   width: 70%;
@@ -54,3 +54,12 @@
   width: 40%;
 }
 
+.skill-item h4{
+  color: rgb(250, 108, 42);
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.skill-item p{
+  color: white;
+}
