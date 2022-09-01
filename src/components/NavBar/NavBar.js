@@ -10,7 +10,6 @@ function NavBar() {
             <li><a href="#about-me">Sobre mi</a></li>
             <li><a href="#skills-container">Skills</a></li>
             <li><a href="#projects">Proyectos</a></li>
-            <li><a href="#projects">Contacto</a></li>
           </ul>
         </nav>
       </header>
