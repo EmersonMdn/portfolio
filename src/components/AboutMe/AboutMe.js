@@ -21,14 +21,23 @@ function AboutMe() {
                   Medina Franco
                 </p>
                 <p>
-                  <i class="fa-solid fa-graduation-cap"></i>Front End Developer
-                  | Coder House (2021 - 2022)
+                  <i className="fa-solid fa-graduation-cap"></i>Front End
+                  Developer | Coder House (2021 - 2022)
                 </p>
                 <p>
-                  <i className="fa-solid fa-location-dot"></i> Ciudad Autónoma de Buenos Aires, Buenos Aires, Argentina
+                  <i className="fa-solid fa-location-dot"></i> Ciudad Autónoma
+                  de Buenos Aires, Buenos Aires, Argentina
                 </p>
                 <p>
                   <i className="fa-solid fa-user-large"></i> 22 años
+                </p>
+                <p>
+                  <i className="fa-solid fa-envelope"></i>{" "}
+                  emersonmedina42@gmail.com
+                </p>
+                <p>
+                  <i className="fa-solid fa-phone"></i>
+                  +54 11 61365561
                 </p>
                 <div className="contacto-logo">
                   <a href="https://github.com/EmersonMdn" target="_blanck">

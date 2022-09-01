@@ -35,12 +35,19 @@
 }
 
 .myPic img {
-  height: 240px;
+  height: 310px;
   width: 240px;
   border-radius: 20px;
   object-fit: cover;
   text-align: center;
   margin: 10px 0 10px 0;
+}
+.myPic{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+
 }
 
 .myData {

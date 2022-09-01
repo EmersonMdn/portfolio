@@ -1,7 +1,7 @@
 #projects h2{
     animation: flux 3s ease-in-out infinite alternate;
     font-family: neon ;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 #projects {
     min-height: 100vh;
@@ -9,22 +9,48 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-
+    padding: 0 0 150px 0;
+    font-family: poppins;
 }
 
-#projects img{
+.lumos img{
     width: 100%;
-    height:500px;
+    height:400px;
     object-fit: cover;
+    border: 11px  rgb(77, 185, 4) solid;
 }
-.lumos:hover{
+
+.lumos img:hover{
+    border: transparent solid 20px;
     transform: scale(1.1);
     transition: 1s;
 }
 .lumos{
     width: 700px;
+    overflow: hidden;
 }
 .lumos p{
-    background-color: rgb(233, 41, 41);
-    color: rgb(255, 255, 255);
+    background-color: rgb(77, 185, 4);
+    color: rgb(43, 37, 37);
+    padding: 10px 0;
+    margin: 0;
+    font-weight: 600;
+}
+.lumos small{
+    background-color: rgb(77, 185, 4);
+    margin: 0;
+    display: block;
+}
+.arrow{
+    padding-top: 50px;
+}
+.tools{
+    width: 700px;
+    overflow: hidden;
+}
+
+.tools h4{
+    animation: neon 3s ease-in-out infinite alternate;
+    font-family: neon ;
+    padding-top: 20px;
 }
